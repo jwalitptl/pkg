@@ -1,9 +1,6 @@
 package event
 
 import (
-	"aiclinic/pkg/config"
-	eventservice "aiclinic/pkg/service/event"
-
 	"github.com/gin-gonic/gin"
 )
 

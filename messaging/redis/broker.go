@@ -6,7 +6,7 @@ import (
 
 	"github.com/redis/go-redis/v9"
 
-	"aiclinic/pkg/messaging"
+	"github.com/jwalitptl/pkg/messaging"
 )
 
 type redisBroker struct {

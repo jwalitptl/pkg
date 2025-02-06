@@ -3,8 +3,6 @@ package config
 import (
 	"os"
 	"strconv"
-
-	"github.com/jwalitptl/admin-api/internal/auth"
 )
 
 type DatabaseConfig struct {

@@ -6,9 +6,7 @@ import (
 
 	"github.com/rs/zerolog/log"
 
-	"aiclinic/pkg/messaging"
-	"aiclinic/pkg/model"
-	"aiclinic/pkg/repository/postgres"
+	"github.com/jwalitptl/pkg/messaging"
 )
 
 type OutboxProcessor struct {

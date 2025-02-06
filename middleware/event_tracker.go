@@ -3,8 +3,7 @@ package middleware
 import (
 	"github.com/gin-gonic/gin"
 
-	"aiclinic/pkg/event"
-	eventservice "aiclinic/pkg/service/event"
+	"github.com/jwalitptl/pkg/event"
 )
 
 type EventTrackerMiddleware struct {
